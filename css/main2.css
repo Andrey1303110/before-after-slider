@@ -8,7 +8,7 @@ div#comparison {
     overflow: hidden;
     position: relative; }
   div#comparison figure { 
-    background-image: url(img/after.png); 
+    background-image: url(../img/after.png); 
     background-size: cover;
     position: relative;
     font-size: 0;
@@ -21,7 +21,7 @@ div#comparison {
     width: 100%;
   }
   div#comparison figure div { 
-    background-image: url(img/before.png);
+    background-image: url(../img/before.png);
     background-size: cover;
     position: absolute;
     width: 50%; 
