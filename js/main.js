@@ -4,7 +4,7 @@ $(function(){
 
 $(function(){
     $(".twentytwenty-container").twentytwenty({
-      default_offset_pct: 1, // How much of the before image is visible when the page loads
+      default_offset_pct: .5, // How much of the before image is visible when the page loads
       orientation: 'horizontal', // Orientation of the before and after images ('horizontal' or 'vertical')
       before_label: 'December 2021', // Set a custom before label
       after_label: 'January 2022', // Set a custom after label
