@@ -14,3 +14,10 @@ $(function(){
       click_to_move: false // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
     });
 });
+
+$(function(){
+  $('.twentytwenty-handle').click(function(){
+    let leftPos = $('.twentytwenty-handle')[0].offsetLeft + $('.twentytwenty-handle')[0].offsetWidth/2;
+    console.log(leftPos)
+  })
+})
